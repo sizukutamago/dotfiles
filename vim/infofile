@@ -18,7 +18,7 @@ $
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
 :wq
-|2,0,1508337793,,"wq"
+|2,0,1508338111,,"wq"
 :q
 |2,0,1508337773,,"q"
 
@@ -35,30 +35,51 @@ $
 # デバッグ行 項目の履歴 (新しいものから古いものへ):
 
 # レジスタ:
+""-	CHAR	0
+	/
+|3,1,36,0,1,0,1508338064,"/"
 
 # ファイルマーク:
-'0  3  3  ~/dotfiles/.gitignore
-|4,48,3,3,1508337793,"~/dotfiles/.gitignore"
-'1  1  8  ~/dotfiles/.gitignore
-|4,49,1,8,1508337718,"~/dotfiles/.gitignore"
-'2  1  8  ~/dotfiles/.gitignore
-|4,50,1,8,1508337718,"~/dotfiles/.gitignore"
-'3  3  34  ~/dotfiles/init.sh
-|4,51,3,34,1508337421,"~/dotfiles/init.sh"
-'4  1  0  ~/dotfiles/vim/vimrc
-|4,52,1,0,1508337319,"~/dotfiles/vim/vimrc"
-'5  12  0  ~/.vim/vimrc
-|4,53,12,0,1508337160,"~/.vim/vimrc"
+'0  6  21  ~/dotfiles/.gitignore
+|4,48,6,21,1508338111,"~/dotfiles/.gitignore"
+'1  5  3  ~/dotfiles/.gitignore
+|4,49,5,3,1508337793,"~/dotfiles/.gitignore"
+'2  3  3  ~/dotfiles/.gitignore
+|4,50,3,3,1508337793,"~/dotfiles/.gitignore"
+'3  1  8  ~/dotfiles/.gitignore
+|4,51,1,8,1508337718,"~/dotfiles/.gitignore"
+'4  1  8  ~/dotfiles/.gitignore
+|4,52,1,8,1508337718,"~/dotfiles/.gitignore"
+'5  1  8  ~/dotfiles/.gitignore
+|4,53,1,8,1508337718,"~/dotfiles/.gitignore"
+'6  1  8  ~/dotfiles/.gitignore
+|4,54,1,8,1508337718,"~/dotfiles/.gitignore"
+'7  3  34  ~/dotfiles/init.sh
+|4,55,3,34,1508337421,"~/dotfiles/init.sh"
+'8  1  0  ~/dotfiles/vim/vimrc
+|4,56,1,0,1508337319,"~/dotfiles/vim/vimrc"
+'9  12  0  ~/.vim/vimrc
+|4,57,12,0,1508337160,"~/.vim/vimrc"
 
 # ジャンプリスト (新しいものが先):
+-'  6  21  ~/dotfiles/.gitignore
+|4,39,6,21,1508338111,"~/dotfiles/.gitignore"
+-'  5  3  ~/dotfiles/.gitignore
+|4,39,5,3,1508338060,"~/dotfiles/.gitignore"
 -'  3  3  ~/dotfiles/.gitignore
 |4,39,3,3,1508337793,"~/dotfiles/.gitignore"
+-'  1  8  ~/dotfiles/.gitignore
+|4,39,1,8,1508337781,"~/dotfiles/.gitignore"
 -'  1  8  ~/dotfiles/.gitignore
 |4,39,1,8,1508337781,"~/dotfiles/.gitignore"
 -'  1  0  ~/dotfiles/vim
 |4,39,1,0,1508337771,"~/dotfiles/vim"
 -'  1  0  ~/dotfiles/vim
 |4,39,1,0,1508337771,"~/dotfiles/vim"
+-'  1  0  ~/dotfiles/vim
+|4,39,1,0,1508337771,"~/dotfiles/vim"
+-'  1  0  ~/dotfiles/vim
+|4,39,1,0,1508337771,"~/dotfiles/vim"
 -'  1  8  ~/dotfiles/.gitignore
 |4,39,1,8,1508337718,"~/dotfiles/.gitignore"
 -'  1  8  ~/dotfiles/.gitignore
@@ -83,6 +104,38 @@ $
 |4,39,3,34,1508337421,"~/dotfiles/init.sh"
 -'  3  34  ~/dotfiles/init.sh
 |4,39,3,34,1508337421,"~/dotfiles/init.sh"
+-'  3  34  ~/dotfiles/init.sh
+|4,39,3,34,1508337421,"~/dotfiles/init.sh"
+-'  3  34  ~/dotfiles/init.sh
+|4,39,3,34,1508337421,"~/dotfiles/init.sh"
+-'  3  34  ~/dotfiles/init.sh
+|4,39,3,34,1508337421,"~/dotfiles/init.sh"
+-'  3  34  ~/dotfiles/init.sh
+|4,39,3,34,1508337421,"~/dotfiles/init.sh"
+-'  3  34  ~/dotfiles/init.sh
+|4,39,3,34,1508337421,"~/dotfiles/init.sh"
+-'  3  34  ~/dotfiles/init.sh
+|4,39,3,34,1508337421,"~/dotfiles/init.sh"
+-'  3  34  ~/dotfiles/init.sh
+|4,39,3,34,1508337421,"~/dotfiles/init.sh"
+-'  3  34  ~/dotfiles/init.sh
+|4,39,3,34,1508337421,"~/dotfiles/init.sh"
+-'  1  0  ~/dotfiles/init.sh
+|4,39,1,0,1508337363,"~/dotfiles/init.sh"
+-'  1  0  ~/dotfiles/init.sh
+|4,39,1,0,1508337363,"~/dotfiles/init.sh"
+-'  1  0  ~/dotfiles/init.sh
+|4,39,1,0,1508337363,"~/dotfiles/init.sh"
+-'  1  0  ~/dotfiles/init.sh
+|4,39,1,0,1508337363,"~/dotfiles/init.sh"
+-'  1  0  ~/dotfiles/init.sh
+|4,39,1,0,1508337363,"~/dotfiles/init.sh"
+-'  1  0  ~/dotfiles/init.sh
+|4,39,1,0,1508337363,"~/dotfiles/init.sh"
+-'  1  0  ~/dotfiles/init.sh
+|4,39,1,0,1508337363,"~/dotfiles/init.sh"
+-'  1  0  ~/dotfiles/init.sh
+|4,39,1,0,1508337363,"~/dotfiles/init.sh"
 -'  1  0  ~/dotfiles/init.sh
 |4,39,1,0,1508337363,"~/dotfiles/init.sh"
 -'  1  0  ~/dotfiles/init.sh
@@ -131,6 +184,38 @@ $
 |4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
 -'  1  0  ~/dotfiles/vim/vimrc
 |4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
+-'  1  0  ~/dotfiles/vim/vimrc
+|4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
+-'  1  0  ~/dotfiles/vim/vimrc
+|4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
+-'  1  0  ~/dotfiles/vim/vimrc
+|4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
+-'  1  0  ~/dotfiles/vim/vimrc
+|4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
+-'  1  0  ~/dotfiles/vim/vimrc
+|4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
+-'  1  0  ~/dotfiles/vim/vimrc
+|4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
+-'  1  0  ~/dotfiles/vim/vimrc
+|4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
+-'  1  0  ~/dotfiles/vim/vimrc
+|4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
+-'  1  0  ~/dotfiles/vim/vimrc
+|4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
+-'  1  0  ~/dotfiles/vim/vimrc
+|4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
+-'  1  0  ~/dotfiles/vim/vimrc
+|4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
+-'  1  0  ~/dotfiles/vim/vimrc
+|4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
+-'  1  0  ~/dotfiles/vim/vimrc
+|4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
+-'  1  0  ~/dotfiles/vim/vimrc
+|4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
+-'  1  0  ~/dotfiles/vim/vimrc
+|4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
+-'  1  0  ~/dotfiles/vim/vimrc
+|4,39,1,0,1508337319,"~/dotfiles/vim/vimrc"
 -'  12  0  ~/.vim/vimrc
 |4,39,12,0,1508337160,"~/.vim/vimrc"
 -'  12  0  ~/.vim/vimrc
@@ -177,92 +262,27 @@ $
 |4,39,12,0,1508337160,"~/.vim/vimrc"
 -'  12  0  ~/.vim/vimrc
 |4,39,12,0,1508337160,"~/.vim/vimrc"
--'  12  0  ~/.vim/vimrc
-|4,39,12,0,1508337160,"~/.vim/vimrc"
--'  12  0  ~/.vim/vimrc
-|4,39,12,0,1508337160,"~/.vim/vimrc"
--'  12  0  ~/.vim/vimrc
-|4,39,12,0,1508337160,"~/.vim/vimrc"
--'  12  0  ~/.vim/vimrc
-|4,39,12,0,1508337160,"~/.vim/vimrc"
--'  12  0  ~/.vim/vimrc
-|4,39,12,0,1508337160,"~/.vim/vimrc"
--'  12  0  ~/.vim/vimrc
-|4,39,12,0,1508337160,"~/.vim/vimrc"
--'  12  0  ~/.vim/vimrc
-|4,39,12,0,1508337160,"~/.vim/vimrc"
--'  12  0  ~/.vim/vimrc
-|4,39,12,0,1508337160,"~/.vim/vimrc"
--'  12  0  ~/.vim/vimrc
-|4,39,12,0,1508337160,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1508337157,"~/.vim/vimrc"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
 
 > ~/dotfiles/.gitignore
-	*	1508337792	0
-	"	3	3
-	^	3	4
-	.	3	3
-	+	3	9
+	*	1508338110	0
+	"	6	21
+	^	6	22
+	.	6	21
+	+	5	9
 	+	1	3
-	+	2	3
 	+	3	3
+	+	5	0
+	+	3	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	3	0
+	+	5	0
+	+	2	13
+	+	4	22
+	+	6	21
 
 > ~/dotfiles/init.sh
 	*	1508337419	0

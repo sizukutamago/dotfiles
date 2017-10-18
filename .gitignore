@@ -1,3 +1,6 @@
 /vim/backups/*
+!/vim/.gitkeep
 /vim/swpfiles/*
+!/vim/swpfiles/.gitkeep
 /vim/unfiles/*
+!/vim/unfiles/.gitkeep
