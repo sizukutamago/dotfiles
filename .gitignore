@@ -4,3 +4,4 @@
 !/vim/swpfiles/.gitkeep
 /vim/unfiles/*
 !/vim/unfiles/.gitkeep
+.DS_Store
