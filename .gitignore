@@ -4,7 +4,7 @@
 !/vim/swpfiles/.gitkeep
 /vim/unfiles/*
 !/vim/unfiles/.gitkeep
-
+infofile
 
 # Created by https://www.gitignore.io/api/vim,macos
 
