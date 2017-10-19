@@ -4,7 +4,7 @@
 !/vim/swpfiles/.gitkeep
 /vim/unfiles/*
 !/vim/unfiles/.gitkeep
-infofile
+/vim/infofile
 
 /vim/dein/.cache/*
 
