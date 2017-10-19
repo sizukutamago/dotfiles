@@ -17,10 +17,36 @@
 $
 
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
-:wq
-|2,0,1508378899,,"wq"
+:q!
+|2,0,1508386465,,"q!"
 :q
-|2,0,1508337773,,"q"
+|2,0,1508386425,,"q"
+:Unite dein
+|2,0,1508386401,,"Unite dein"
+:wq
+|2,0,1508386332,,"wq"
+:help splitjoin-ruby
+|2,0,1508385942,,"help splitjoin-ruby"
+:help splitjoin-php
+|2,0,1508385932,,"help splitjoin-php"
+:!
+|2,0,1508385758,,"!"
+:1
+|2,0,1508385757,,"1"
+:call dein#install()
+|2,0,1508385737,,"call dein#install()"
+:qq
+|2,0,1508385387,,"qq"
+:NeoCompleteEnable
+|2,0,1508383506,,"NeoCompleteEnable"
+:Q
+|2,0,1508383251,,"Q"
+:NERDTree
+|2,0,1508382273,,"NERDTree"
+:NERDTreeToggle
+|2,0,1508381325,,"NERDTreeToggle"
+:Wq
+|2,0,1508380243,,"Wq"
 
 # 検索文字列 項目の履歴 (新しいものから古いものへ):
 ? @$
@@ -35,241 +61,481 @@ $
 # デバッグ行 項目の履歴 (新しいものから古いものへ):
 
 # レジスタ:
-""-	CHAR	0
-	/
-|3,1,36,0,1,0,1508338064,"/"
+"0	CHAR	0
+	a
+|3,0,0,0,1,0,1508385805,"a"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1508386330,""
+"2	LINE	0
+	repo = 'AndrewRadev/splitjoin.vim'
+|3,0,2,1,1,0,1508386054,"repo = 'AndrewRadev/splitjoin.vim'"
+"3	LINE	0
+	[[plugins]]
+|3,0,3,1,1,0,1508386053,"[[plugins]]"
+"4	LINE	0
+	
+|3,0,4,1,1,0,1508386053,""
+"5	LINE	0
+	'''
+|3,0,5,1,1,0,1508386053,"'''"
+"6	LINE	0
+	  set statusline+=%*
+|3,0,6,1,1,0,1508386053,"  set statusline+=%*"
+"7	LINE	0
+	  set statusline+=%{SyntasticStatuslineFlag()}
+|3,0,7,1,1,0,1508386053,"  set statusline+=%{SyntasticStatuslineFlag()}"
+"8	LINE	0
+	  set statusline+=%#warningmsg#
+|3,0,8,1,1,0,1508386053,"  set statusline+=%#warningmsg#"
+"9	LINE	0
+	  let g:syntastic_php_php_args = '-l'
+|3,0,9,1,1,0,1508386053,"  let g:syntastic_php_php_args = '-l'"
+"-	CHAR	0
+	'
+|3,0,36,0,1,0,1508386156,"'"
 
 # ファイルマーク:
-'0  52  46  ~/dotfiles/.gitignore
-|4,48,52,46,1508378899,"~/dotfiles/.gitignore"
-'1  7  8  ~/dotfiles/.gitignore
-|4,49,7,8,1508378716,"~/dotfiles/.gitignore"
-'2  7  8  ~/dotfiles/.gitignore
-|4,50,7,8,1508378716,"~/dotfiles/.gitignore"
-'3  2  12  ~/dotfiles/.gitignore
-|4,51,2,12,1508338227,"~/dotfiles/.gitignore"
-'4  2  12  ~/dotfiles/.gitignore
-|4,52,2,12,1508338227,"~/dotfiles/.gitignore"
-'5  2  12  ~/dotfiles/.gitignore
-|4,53,2,12,1508338227,"~/dotfiles/.gitignore"
-'6  2  12  ~/dotfiles/.gitignore
-|4,54,2,12,1508338227,"~/dotfiles/.gitignore"
-'7  6  21  ~/dotfiles/.gitignore
-|4,55,6,21,1508338111,"~/dotfiles/.gitignore"
-'8  6  21  ~/dotfiles/.gitignore
-|4,56,6,21,1508338111,"~/dotfiles/.gitignore"
-'9  6  21  ~/dotfiles/.gitignore
-|4,57,6,21,1508338111,"~/dotfiles/.gitignore"
+'0  4  9  ~/index.php
+|4,48,4,9,1508386465,"~/index.php"
+'1  56  0  ~/dotfiles/vim/plugins/dein.toml
+|4,49,56,0,1508386332,"~/dotfiles/vim/plugins/dein.toml"
+'2  3  0  ~/dotfiles/vim/index.php
+|4,50,3,0,1508385956,"~/dotfiles/vim/index.php"
+'3  44  11  ~/dotfiles/vim/plugins/dein.toml
+|4,51,44,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+'4  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,52,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+'5  1  0  ~/dotfiles/vim/index.php
+|4,53,1,0,1508385692,"~/dotfiles/vim/index.php"
+'6  1  0  ~/dotfiles/vim/index.php
+|4,54,1,0,1508385692,"~/dotfiles/vim/index.php"
+'7  44  0  ~/dotfiles/vim/plugins/dein.toml
+|4,55,44,0,1508385680,"~/dotfiles/vim/plugins/dein.toml"
+'8  44  0  ~/dotfiles/vim/plugins/dein.toml
+|4,56,44,0,1508385680,"~/dotfiles/vim/plugins/dein.toml"
+'9  59  0  ~/dotfiles/vim/plugins/dein.toml
+|4,57,59,0,1508385680,"~/dotfiles/vim/plugins/dein.toml"
 
 # ジャンプリスト (新しいものが先):
--'  52  46  ~/dotfiles/.gitignore
-|4,39,52,46,1508378899,"~/dotfiles/.gitignore"
--'  7  8  ~/dotfiles/.gitignore
-|4,39,7,8,1508378890,"~/dotfiles/.gitignore"
--'  7  8  ~/dotfiles/.gitignore
-|4,39,7,8,1508378716,"~/dotfiles/.gitignore"
--'  2  12  ~/dotfiles/.gitignore
-|4,39,2,12,1508378711,"~/dotfiles/.gitignore"
--'  2  12  ~/dotfiles/.gitignore
-|4,39,2,12,1508378711,"~/dotfiles/.gitignore"
--'  2  12  ~/dotfiles/.gitignore
-|4,39,2,12,1508338227,"~/dotfiles/.gitignore"
--'  1  13  ~/dotfiles/.gitignore
-|4,39,1,13,1508338218,"~/dotfiles/.gitignore"
--'  1  13  ~/dotfiles/.gitignore
-|4,39,1,13,1508338218,"~/dotfiles/.gitignore"
--'  1  13  ~/dotfiles/.gitignore
-|4,39,1,13,1508338218,"~/dotfiles/.gitignore"
--'  6  21  ~/dotfiles/.gitignore
-|4,39,6,21,1508338213,"~/dotfiles/.gitignore"
--'  6  21  ~/dotfiles/.gitignore
-|4,39,6,21,1508338213,"~/dotfiles/.gitignore"
--'  6  21  ~/dotfiles/.gitignore
-|4,39,6,21,1508338213,"~/dotfiles/.gitignore"
--'  6  21  ~/dotfiles/.gitignore
-|4,39,6,21,1508338111,"~/dotfiles/.gitignore"
--'  5  3  ~/dotfiles/.gitignore
-|4,39,5,3,1508338060,"~/dotfiles/.gitignore"
--'  5  3  ~/dotfiles/.gitignore
-|4,39,5,3,1508338060,"~/dotfiles/.gitignore"
--'  5  3  ~/dotfiles/.gitignore
-|4,39,5,3,1508338060,"~/dotfiles/.gitignore"
--'  5  3  ~/dotfiles/.gitignore
-|4,39,5,3,1508338060,"~/dotfiles/.gitignore"
--'  3  3  ~/dotfiles/.gitignore
-|4,39,3,3,1508337793,"~/dotfiles/.gitignore"
--'  3  3  ~/dotfiles/.gitignore
-|4,39,3,3,1508337793,"~/dotfiles/.gitignore"
--'  3  3  ~/dotfiles/.gitignore
-|4,39,3,3,1508337793,"~/dotfiles/.gitignore"
--'  3  3  ~/dotfiles/.gitignore
-|4,39,3,3,1508337793,"~/dotfiles/.gitignore"
--'  1  8  ~/dotfiles/.gitignore
-|4,39,1,8,1508337781,"~/dotfiles/.gitignore"
--'  1  8  ~/dotfiles/.gitignore
-|4,39,1,8,1508337781,"~/dotfiles/.gitignore"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  0  ~/dotfiles/vim
-|4,39,1,0,1508337771,"~/dotfiles/vim"
--'  1  8  ~/dotfiles/.gitignore
-|4,39,1,8,1508337718,"~/dotfiles/.gitignore"
--'  1  8  ~/dotfiles/.gitignore
-|4,39,1,8,1508337718,"~/dotfiles/.gitignore"
--'  3  9  ~/dotfiles/.gitignore
-|4,39,3,9,1508337715,"~/dotfiles/.gitignore"
--'  3  9  ~/dotfiles/.gitignore
-|4,39,3,9,1508337715,"~/dotfiles/.gitignore"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
--'  3  34  ~/dotfiles/init.sh
-|4,39,3,34,1508337421,"~/dotfiles/init.sh"
+-'  4  9  ~/index.php
+|4,39,4,9,1508386465,"~/index.php"
+-'  1  0  ~/index.php
+|4,39,1,0,1508386433,"~/index.php"
+-'  56  0  ~/dotfiles/vim/plugins/dein.toml
+|4,39,56,0,1508386332,"~/dotfiles/vim/plugins/dein.toml"
+-'  56  0  ~/dotfiles/vim/plugins/dein.toml
+|4,39,56,0,1508386332,"~/dotfiles/vim/plugins/dein.toml"
+-'  56  0  ~/dotfiles/vim/plugins/dein.toml
+|4,39,56,0,1508386332,"~/dotfiles/vim/plugins/dein.toml"
+-'  56  0  ~/dotfiles/vim/plugins/dein.toml
+|4,39,56,0,1508386332,"~/dotfiles/vim/plugins/dein.toml"
+-'  44  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,44,11,1508385981,"~/dotfiles/vim/plugins/dein.toml"
+-'  44  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,44,11,1508385981,"~/dotfiles/vim/plugins/dein.toml"
+-'  44  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,44,11,1508385981,"~/dotfiles/vim/plugins/dein.toml"
+-'  44  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,44,11,1508385981,"~/dotfiles/vim/plugins/dein.toml"
+-'  3  0  ~/dotfiles/vim/index.php
+|4,39,3,0,1508385956,"~/dotfiles/vim/index.php"
+-'  3  0  ~/dotfiles/vim/index.php
+|4,39,3,0,1508385956,"~/dotfiles/vim/index.php"
+-'  3  0  ~/dotfiles/vim/index.php
+|4,39,3,0,1508385956,"~/dotfiles/vim/index.php"
+-'  3  0  ~/dotfiles/vim/index.php
+|4,39,3,0,1508385956,"~/dotfiles/vim/index.php"
+-'  3  0  ~/dotfiles/vim/index.php
+|4,39,3,0,1508385956,"~/dotfiles/vim/index.php"
+-'  3  0  ~/dotfiles/vim/index.php
+|4,39,3,0,1508385956,"~/dotfiles/vim/index.php"
+-'  3  0  ~/dotfiles/vim/index.php
+|4,39,3,0,1508385956,"~/dotfiles/vim/index.php"
+-'  3  0  ~/dotfiles/vim/index.php
+|4,39,3,0,1508385956,"~/dotfiles/vim/index.php"
+-'  1  0  ~/dotfiles/vim/index.php
+|4,39,1,0,1508385764,"~/dotfiles/vim/index.php"
+-'  1  0  ~/dotfiles/vim/index.php
+|4,39,1,0,1508385764,"~/dotfiles/vim/index.php"
+-'  1  0  ~/dotfiles/vim/index.php
+|4,39,1,0,1508385764,"~/dotfiles/vim/index.php"
+-'  1  0  ~/dotfiles/vim/index.php
+|4,39,1,0,1508385764,"~/dotfiles/vim/index.php"
+-'  1  0  ~/dotfiles/vim/index.php
+|4,39,1,0,1508385764,"~/dotfiles/vim/index.php"
+-'  1  0  ~/dotfiles/vim/index.php
+|4,39,1,0,1508385764,"~/dotfiles/vim/index.php"
+-'  1  0  ~/dotfiles/vim/index.php
+|4,39,1,0,1508385764,"~/dotfiles/vim/index.php"
+-'  1  0  ~/dotfiles/vim/index.php
+|4,39,1,0,1508385764,"~/dotfiles/vim/index.php"
+-'  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+-'  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+-'  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+-'  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+-'  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+-'  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+-'  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+-'  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+-'  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+-'  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+-'  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+-'  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+-'  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+-'  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+-'  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+-'  45  11  ~/dotfiles/vim/plugins/dein.toml
+|4,39,45,11,1508385724,"~/dotfiles/vim/plugins/dein.toml"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  5  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,5,0,1508385705,"~/dotfiles/vim/NERD_tree_1"
+-'  1  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,1,0,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  6  2  ~/dotfiles/vim/NERD_tree_1
+|4,39,6,2,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  1  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,1,0,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  6  2  ~/dotfiles/vim/NERD_tree_1
+|4,39,6,2,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  1  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,1,0,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  6  2  ~/dotfiles/vim/NERD_tree_1
+|4,39,6,2,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  1  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,1,0,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  6  2  ~/dotfiles/vim/NERD_tree_1
+|4,39,6,2,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  1  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,1,0,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  6  2  ~/dotfiles/vim/NERD_tree_1
+|4,39,6,2,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  1  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,1,0,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  6  2  ~/dotfiles/vim/NERD_tree_1
+|4,39,6,2,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  1  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,1,0,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  6  2  ~/dotfiles/vim/NERD_tree_1
+|4,39,6,2,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  1  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,1,0,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  6  2  ~/dotfiles/vim/NERD_tree_1
+|4,39,6,2,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  1  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,1,0,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  6  2  ~/dotfiles/vim/NERD_tree_1
+|4,39,6,2,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  1  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,1,0,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  6  2  ~/dotfiles/vim/NERD_tree_1
+|4,39,6,2,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  1  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,1,0,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  6  2  ~/dotfiles/vim/NERD_tree_1
+|4,39,6,2,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  1  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,1,0,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  6  2  ~/dotfiles/vim/NERD_tree_1
+|4,39,6,2,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  1  0  ~/dotfiles/vim/NERD_tree_1
+|4,39,1,0,1508385703,"~/dotfiles/vim/NERD_tree_1"
+-'  6  2  ~/dotfiles/vim/NERD_tree_1
+|4,39,6,2,1508385703,"~/dotfiles/vim/NERD_tree_1"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
 
+> ~/index.php
+	*	1508386463	0
+	"	4	9
+	^	4	10
+	.	4	10
+	+	5	1
+	+	4	10
+
+> ~/dotfiles/vim/[unite] - default
+	*	1508386408	0
+	"	4	0
+	^	1	5
+	.	2	0
+	+	2	0
+	+	1	0
+	+	2	0
+
+> ~/dotfiles/vim/plugins/dein.toml
+	*	1508386330	0
+	"	56	0
+	.	57	0
+	+	38	0
+	+	1	11
+	+	31	6
+	+	12	28
+	+	30	0
+	+	1	23
+	+	11	10
+	+	1	11
+	+	2	6
+	+	9	6
+	+	12	6
+	+	37	0
+	+	33	11
+	+	34	24
+	+	35	3
+	+	2	24
+	+	9	30
+	+	13	0
+	+	32	0
+	+	36	0
+	+	35	10
+	+	40	11
+	+	41	22
+	+	41	27
+	+	14	11
+	+	15	25
+	+	41	26
+	+	28	2
+	+	28	55
+	+	18	2
+	+	19	1
+	+	20	2
+	+	21	2
+	+	22	2
+	+	23	3
+	+	24	2
+	+	25	2
+	+	28	1
+	+	16	7
+	+	28	0
+	+	28	1
+	+	28	0
+	+	28	10
+	+	28	1
+	+	28	3
+	+	28	0
+	+	26	84
+	+	28	122
+	+	28	0
+	+	4	11
+	+	5	27
+	+	6	12
+	+	44	29
+	+	44	2
+	+	44	17
+	+	44	0
+	+	44	1
+	+	44	11
+	+	44	34
+	+	44	6
+	+	51	8
+	+	45	14
+	+	48	2
+	+	48	0
+	+	47	2
+	+	51	42
+	+	55	2
+	+	54	33
+	+	53	1
+	+	54	1
+	+	56	0
+	+	57	0
+
+> ~/dotfiles/vim/index.php
+	*	1508385942	0
+	"	3	0
+	^	3	13
+	.	3	0
+	+	3	0
+
+> ~/dotfiles/vim/NERD_tree_1
+	*	1508385705	0
+	"	5	0
+	.	1	0
+	+	1	0
+
+> ~/dotfiles/vim/plugins/dein_lazy.toml
+	*	1508385494	0
+	"	3	25
+	^	3	26
+	.	4	0
+	+	3	66
+	+	4	0
+
+> ~/dotfiles/vim/index.html
+	*	1508383477	0
+	"	3	20
+	^	3	21
+	.	3	20
+	+	1	6
+	+	1	15
+	+	5	6
+	+	4	0
+	+	3	20
+
+> ~/dotfiles/vim/ControlP
+	*	1508383342	0
+	"	10	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/dotfiles/vim/vimrc
+	*	1508381943	0
+	"	60	1
+	.	59	0
+	+	85	41
+	+	59	46
+	+	57	48
+	+	56	49
+	+	55	18
+	+	56	20
+	+	57	19
+	+	59	17
+	+	81	0
+	+	82	0
+	+	83	0
+	+	55	26
+	+	56	30
+	+	57	28
+	+	59	26
+	+	38	17
+	+	55	0
+	+	38	17
+	+	41	76
+	+	42	43
+	+	44	58
+	+	45	68
+	+	47	60
+	+	53	4
+	+	55	0
+	+	56	28
+	+	57	27
+	+	59	30
+	+	67	0
+	+	66	22
+	+	63	51
+	+	63	48
+	+	64	0
+	+	63	51
+	+	62	2
+	+	64	0
+	+	66	54
+	+	65	40
+	+	70	0
+	+	68	46
+	+	69	65
+	+	66	58
+	+	59	0
+	+	59	34
+	+	59	0
+
+> ~/dotfiles/vim/dein.toml
+	*	1508381538	0
+	"	2	26
+	^	2	27
+	.	2	26
+	+	1	11
+	+	2	26
+
+> ~/dotfiles/vim/dein_lazy.toml
+	*	1508381004	0
+	"	3	25
+	^	3	26
+	.	3	25
+	+	3	25
+
+> ~/dotfiles/init.sh
+	*	1508379808	0
+	"	3	0
+	^	3	1
+	.	3	0
+	+	3	34
+	+	1	9
+	+	2	0
+	+	4	0
+	+	9	27
+	+	3	0
+
 > ~/dotfiles/.gitignore
-	*	1508378898	0
-	"	52	46
-	^	52	47
-	.	52	46
+	*	1508379504	0
+	"	7	7
+	^	7	8
+	.	7	7
 	+	5	9
 	+	1	3
 	+	3	3
@@ -286,17 +552,14 @@ $
 	+	2	12
 	+	7	8
 	+	52	46
+	+	7	7
 
-> ~/dotfiles/init.sh
-	*	1508337419	0
-	"	3	34
-	^	3	35
-	.	3	34
-	+	3	34
-
-> ~/dotfiles/vim/vimrc
-	*	1508337317	0
+> ~/dotfiles/zsh/zsh_init.sh
+	*	1508379407	0
 	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
 
 > ~/.vim/vimrc
 	*	1508337159	0
