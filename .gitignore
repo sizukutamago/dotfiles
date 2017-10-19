@@ -6,6 +6,8 @@
 !/vim/unfiles/.gitkeep
 infofile
 
+/vim/dein/.cache/*
+
 # Created by https://www.gitignore.io/api/vim,macos
 
 ### macOS ###
