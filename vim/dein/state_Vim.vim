@@ -8,6 +8,10 @@ let g:dein#_runtime_path = '/Users/sizukutamago/dotfiles/vim/dein/.cache/.vimrc/
 let g:dein#_cache_path = '/Users/sizukutamago/dotfiles/vim/dein/.cache/.vimrc'
 let &runtimepath = '/Users/sizukutamago/dotfiles/vim/dein/repos/github.com/Shougo/dein.vim/,/Users/sizukutamago/.vim,/Applications/MacVim.app/Contents/Resources/vim/vimfiles,/Users/sizukutamago/dotfiles/vim/dein/repos/github.com/Shougo/vimproc.vim,/Users/sizukutamago/dotfiles/vim/dein/repos/github.com/Shougo/dein.vim,/Users/sizukutamago/dotfiles/vim/dein/.cache/.vimrc/.dein,/Applications/MacVim.app/Contents/Resources/vim/runtime,/Users/sizukutamago/dotfiles/vim/dein/.cache/.vimrc/.dein/after,/Applications/MacVim.app/Contents/Resources/vim/vimfiles/after,/Users/sizukutamago/.vim/after,/Applications/MacVim.app/Contents/Resources/vim/plugins/autofmt,/Applications/MacVim.app/Contents/Resources/vim/plugins/golang,/Applications/MacVim.app/Contents/Resources/vim/plugins/kaoriya,/Applications/MacVim.app/Contents/Resources/vim/plugins/vimdoc-ja'
 filetype off
+  let NERDTreeShowHidden = 1
+  nnoremap <silent><C-e> :NERDTree<CR>
+  let g:nerdtree_tabs_open_on_console_startup=1
+  autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
   let g:neocomplete#enable_at_startup = 1
   let g:neocomplete#enable_ignore_case = 1
   let g:neocomplete#enable_smart_case = 1
