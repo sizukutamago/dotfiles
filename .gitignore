@@ -5,9 +5,8 @@
 /vim/unfiles/*
 !/vim/unfiles/.gitkeep
 /vim/infofile
-vim/dein/cache_Vim
-vim/dein/state_Vim.vim
-vim/dein/repos/*
+vim/dein/
+installer.sh
 
 /vim/dein/.cache/*
 

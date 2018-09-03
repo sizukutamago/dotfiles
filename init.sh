@@ -1,9 +1,9 @@
 #!/bin/sh
 
-#ln -sf ~/dotfiles/vim/vimrc ~/vimrc
+ln -sf ~/dotfiles/vimrc ~/.vimrc
 
 curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
 
-mkdir vim/dein
+mkdir -p ./vim/dein
 
-sh ./installer.sh ./vim/dein
+sh ~/dotfiles/installer.sh ~/dotfiles/vim/dein

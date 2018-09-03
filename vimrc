@@ -33,40 +33,33 @@ set tabstop=2
 " 行頭でのTab文字の表示幅
 set shiftwidth=2
 
+
 "dein Scripts-----------------------------
 if &compatible
-  set nocompatible
-endif
-
-" dein.vimインストール時に指定したディレクトリをセット
-let s:dein_dir = expand('~/dotfiles/vim/dein')
-
-" dein.vimの実体があるディレクトリをセット
-let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
-
-" dein.vimが存在していない場合はgithubからclone
-if &runtimepath !~# '/dein.vim'
-  if !isdirectory(s:dein_repo_dir)
-    execute '!git clone https://github.com/Shougo/dein.vim' s:dein_repo_dir
-  endif
-  execute 'set runtimepath^=' . fnamemodify(s:dein_repo_dir, ':p')
+  set nocompatible               " Be iMproved
 endif
 
 " Required:
-if dein#load_state(s:dein_dir)
-  call dein#begin(s:dein_dir)
+set runtimepath+=~/dotfiles/vim/dein/repos/github.com/Shougo/dein.vim
+
+" Required:
+if dein#load_state('~/dotfiles/vim/dein')
+  call dein#begin('~/dotfiles/vim/dein')
+
+  call dein#add('ryanoasis/vim-devicons')
+  call dein#add('scrooloose/nerdtree')
+  call dein#add('tiagofumo/vim-nerdtree-syntax-highlight') 
+
+  " Let dein manage dein
+  " Required:
+  call dein#add('~/dotfiles/vim/dein/repos/github.com/Shougo/dein.vim')
+
+  " Add or remove your plugins here:
+  call dein#add('Shougo/neosnippet.vim')
+  call dein#add('Shougo/neosnippet-snippets')
 
   " You can specify revision/branch/tag.
-  call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
-
-  " dein.toml, dein_layz.tomlファイルのディレクトリをセット
-  let s:toml_dir = expand('~/dotfiles/vim/plugins')
-
-  " 起動時に読み込むプラグイン
-  call dein#load_toml(s:toml_dir . '/dein.toml', {'lazy': 0})
-
-  " 遅延読み込みしたいプラグイン
-  call dein#load_toml(s:toml_dir . '/dein_lazy.toml', {'lazy': 1})
+  call dein#add('Shougo/deol.nvim', { 'rev': '01203d4c9' })
 
   " Required:
   call dein#end()
@@ -78,8 +71,9 @@ filetype plugin indent on
 syntax enable
 
 " If you want to install not installed plugins on startup.
-if dein#check_install()
-  call dein#install()
-endif
+"if dein#check_install()
+"  call dein#install()
+"endif
 
 "End dein Scripts-------------------------
+

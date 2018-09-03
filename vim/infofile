@@ -10,51 +10,21 @@
 
 # hlsearch on (H) or off (h):
 ~h
-# 最後の 検索パターン:
-~MSle0~/\/\*
-
-# 最後に置換された文字列:
-$
-
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
 :q
-|2,0,1508753852,,"q"
-:wq
-|2,0,1508753845,,"wq"
-:q!
-|2,0,1508728801,,"q!"
-:Wq
-|2,0,1508459167,,"Wq"
-:w
-|2,0,1508459077,,"w"
-:1
-|2,0,1508387554,,"1"
-:Unite dein
-|2,0,1508387523,,"Unite dein"
-:call dein#install()
-|2,0,1508387518,,"call dein#install()"
-:Q
-|2,0,1508386845,,"Q"
-:help splitjoin-ruby
-|2,0,1508385942,,"help splitjoin-ruby"
-:help splitjoin-php
-|2,0,1508385932,,"help splitjoin-php"
-:!
-|2,0,1508385758,,"!"
-:qq
-|2,0,1508385387,,"qq"
-:NeoCompleteEnable
-|2,0,1508383506,,"NeoCompleteEnable"
-:NERDTree
-|2,0,1508382273,,"NERDTree"
+|2,0,1535963013,,"q"
 :NERDTreeToggle
-|2,0,1508381325,,"NERDTreeToggle"
+|2,0,1535962992,,"NERDTreeToggle"
+:call dein#install()
+|2,0,1535962896,,"call dein#install()"
+:dein
+|2,0,1535962878,,"dein"
+:wq
+|2,0,1535962871,,"wq"
+:q!
+|2,0,1535962587,,"q!"
 
 # 検索文字列 項目の履歴 (新しいものから古いものへ):
-? @$
-|2,1,1508337771,,"@$"
-? \/\*
-|2,1,1508337715,,"\\/\\*"
 
 # 式 項目の履歴 (新しいものから古いものへ):
 
@@ -63,600 +33,283 @@ $
 # デバッグ行 項目の履歴 (新しいものから古いものへ):
 
 # レジスタ:
-"0	CHAR	0
-	a
-|3,0,0,0,1,0,1508385805,"a"
-"1	LINE	0
-	
-|3,0,1,1,1,0,1508386330,""
-"2	LINE	0
-	repo = 'AndrewRadev/splitjoin.vim'
-|3,0,2,1,1,0,1508386054,"repo = 'AndrewRadev/splitjoin.vim'"
-"3	LINE	0
-	[[plugins]]
-|3,0,3,1,1,0,1508386053,"[[plugins]]"
-"4	LINE	0
-	
-|3,0,4,1,1,0,1508386053,""
-"5	LINE	0
-	'''
-|3,0,5,1,1,0,1508386053,"'''"
-"6	LINE	0
-	  set statusline+=%*
-|3,0,6,1,1,0,1508386053,"  set statusline+=%*"
-"7	LINE	0
-	  set statusline+=%{SyntasticStatuslineFlag()}
-|3,0,7,1,1,0,1508386053,"  set statusline+=%{SyntasticStatuslineFlag()}"
-"8	LINE	0
-	  set statusline+=%#warningmsg#
-|3,0,8,1,1,0,1508386053,"  set statusline+=%#warningmsg#"
-"9	LINE	0
-	  let g:syntastic_php_php_args = '-l'
-|3,0,9,1,1,0,1508386053,"  let g:syntastic_php_php_args = '-l'"
-""-	CHAR	0
-	b
-|3,1,36,0,1,0,1508751079,"b"
 
 # ファイルマーク:
-'0  1  0  ~/dotfiles/status
-|4,48,1,0,1508753852,"~/dotfiles/status"
-'1  10  10  ~/dotfiles/.gitignore
-|4,49,10,10,1508753845,"~/dotfiles/.gitignore"
-'2  8  14  ~/index.php
-|4,50,8,14,1508751084,"~/index.php"
-'3  8  13  ~/index.php
-|4,51,8,13,1508751067,"~/index.php"
-'4  4  19  ~/index.php
-|4,52,4,19,1508751051,"~/index.php"
-'5  4  19  ~/index.php
-|4,53,4,19,1508751051,"~/index.php"
-'6  4  19  ~/index.php
-|4,54,4,19,1508751051,"~/index.php"
-'7  4  19  ~/index.php
-|4,55,4,19,1508751051,"~/index.php"
-'8  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,56,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
-'9  97  43  ~/.zshrc
-|4,57,97,43,1508728801,"~/.zshrc"
+'0  19  0  ~/dotfiles/NERD_tree_1
+|4,48,19,0,1535963013,"~/dotfiles/NERD_tree_1"
+'1  54  12  ~/dotfiles/vimrc
+|4,49,54,12,1535962871,"~/dotfiles/vimrc"
+'2  54  12  ~/dotfiles/vimrc
+|4,50,54,12,1535962871,"~/dotfiles/vimrc"
+'3  1  0  ~/index
+|4,51,1,0,1535962587,"~/index"
+'4  2  10  ~/dotfiles/vim/dein/.gitignore
+|4,52,2,10,1535962533,"~/dotfiles/vim/dein/.gitignore"
+'5  2  10  ~/dotfiles/vim/dein/.gitignore
+|4,53,2,10,1535962533,"~/dotfiles/vim/dein/.gitignore"
+'6  2  10  ~/dotfiles/vim/swpfiles/.gitignore
+|4,54,2,10,1535962488,"~/dotfiles/vim/swpfiles/.gitignore"
+'7  2  10  ~/dotfiles/vim/swpfiles/.gitignore
+|4,55,2,10,1535962488,"~/dotfiles/vim/swpfiles/.gitignore"
+'8  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,56,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+'9  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,57,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
 
 # ジャンプリスト (新しいものが先):
--'  1  0  ~/dotfiles/status
-|4,39,1,0,1508753852,"~/dotfiles/status"
--'  10  10  ~/dotfiles/.gitignore
-|4,39,10,10,1508753845,"~/dotfiles/.gitignore"
--'  10  10  ~/dotfiles/.gitignore
-|4,39,10,10,1508753845,"~/dotfiles/.gitignore"
--'  7  5  ~/dotfiles/.gitignore
-|4,39,7,5,1508753771,"~/dotfiles/.gitignore"
--'  7  5  ~/dotfiles/.gitignore
-|4,39,7,5,1508753771,"~/dotfiles/.gitignore"
--'  8  14  ~/index.php
-|4,39,8,14,1508751084,"~/index.php"
--'  8  14  ~/index.php
-|4,39,8,14,1508751084,"~/index.php"
--'  8  14  ~/index.php
-|4,39,8,14,1508751084,"~/index.php"
--'  8  14  ~/index.php
-|4,39,8,14,1508751084,"~/index.php"
--'  8  13  ~/index.php
-|4,39,8,13,1508751067,"~/index.php"
--'  8  13  ~/index.php
-|4,39,8,13,1508751067,"~/index.php"
--'  8  13  ~/index.php
-|4,39,8,13,1508751067,"~/index.php"
--'  8  13  ~/index.php
-|4,39,8,13,1508751067,"~/index.php"
--'  4  19  ~/index.php
-|4,39,4,19,1508751056,"~/index.php"
--'  4  19  ~/index.php
-|4,39,4,19,1508751056,"~/index.php"
--'  4  19  ~/index.php
-|4,39,4,19,1508751056,"~/index.php"
--'  4  19  ~/index.php
-|4,39,4,19,1508751056,"~/index.php"
--'  4  19  ~/index.php
-|4,39,4,19,1508751056,"~/index.php"
--'  4  19  ~/index.php
-|4,39,4,19,1508751056,"~/index.php"
--'  4  19  ~/index.php
-|4,39,4,19,1508751056,"~/index.php"
--'  4  19  ~/index.php
-|4,39,4,19,1508751056,"~/index.php"
--'  4  19  ~/index.php
-|4,39,4,19,1508751051,"~/index.php"
--'  4  19  ~/index.php
-|4,39,4,19,1508751051,"~/index.php"
--'  4  19  ~/index.php
-|4,39,4,19,1508751051,"~/index.php"
--'  4  19  ~/index.php
-|4,39,4,19,1508751051,"~/index.php"
--'  1  0  ~/index.php
-|4,39,1,0,1508750960,"~/index.php"
--'  1  0  ~/index.php
-|4,39,1,0,1508750960,"~/index.php"
--'  1  0  ~/index.php
-|4,39,1,0,1508750960,"~/index.php"
--'  1  0  ~/index.php
-|4,39,1,0,1508750960,"~/index.php"
--'  1  0  ~/index.php
-|4,39,1,0,1508750960,"~/index.php"
--'  1  0  ~/index.php
-|4,39,1,0,1508750960,"~/index.php"
--'  1  0  ~/index.php
-|4,39,1,0,1508750960,"~/index.php"
--'  1  0  ~/index.php
-|4,39,1,0,1508750960,"~/index.php"
--'  1  0  ~/index.php
-|4,39,1,0,1508750960,"~/index.php"
--'  1  0  ~/index.php
-|4,39,1,0,1508750960,"~/index.php"
--'  1  0  ~/index.php
-|4,39,1,0,1508750960,"~/index.php"
--'  1  0  ~/index.php
-|4,39,1,0,1508750960,"~/index.php"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  11  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,11,0,1508730732,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
--'  1  0  ~/Documents/free/vue-tutorial/index.html
-|4,39,1,0,1508730729,"~/Documents/free/vue-tutorial/index.html"
+-'  19  0  ~/dotfiles/NERD_tree_1
+|4,39,19,0,1535963013,"~/dotfiles/NERD_tree_1"
+-'  1  0  ~/dotfiles/NERD_tree_1
+|4,39,1,0,1535963001,"~/dotfiles/NERD_tree_1"
+-'  54  12  ~/dotfiles/vimrc
+|4,39,54,12,1535962871,"~/dotfiles/vimrc"
+-'  54  12  ~/dotfiles/vimrc
+|4,39,54,12,1535962871,"~/dotfiles/vimrc"
+-'  1  0  ~/dotfiles/vimrc
+|4,39,1,0,1535962759,"~/dotfiles/vimrc"
+-'  1  0  ~/dotfiles/vimrc
+|4,39,1,0,1535962759,"~/dotfiles/vimrc"
+-'  1  0  ~/index
+|4,39,1,0,1535962587,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1535962587,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1535962587,"~/index"
+-'  1  0  ~/index
+|4,39,1,0,1535962587,"~/index"
+-'  2  10  ~/dotfiles/vim/dein/.gitignore
+|4,39,2,10,1535962533,"~/dotfiles/vim/dein/.gitignore"
+-'  2  10  ~/dotfiles/vim/dein/.gitignore
+|4,39,2,10,1535962533,"~/dotfiles/vim/dein/.gitignore"
+-'  2  10  ~/dotfiles/vim/dein/.gitignore
+|4,39,2,10,1535962533,"~/dotfiles/vim/dein/.gitignore"
+-'  2  10  ~/dotfiles/vim/dein/.gitignore
+|4,39,2,10,1535962533,"~/dotfiles/vim/dein/.gitignore"
+-'  2  10  ~/dotfiles/vim/dein/.gitignore
+|4,39,2,10,1535962533,"~/dotfiles/vim/dein/.gitignore"
+-'  2  10  ~/dotfiles/vim/dein/.gitignore
+|4,39,2,10,1535962533,"~/dotfiles/vim/dein/.gitignore"
+-'  2  10  ~/dotfiles/vim/dein/.gitignore
+|4,39,2,10,1535962533,"~/dotfiles/vim/dein/.gitignore"
+-'  2  10  ~/dotfiles/vim/dein/.gitignore
+|4,39,2,10,1535962533,"~/dotfiles/vim/dein/.gitignore"
+-'  1  0  ~/dotfiles/vim/dein/.gitignore
+|4,39,1,0,1535962525,"~/dotfiles/vim/dein/.gitignore"
+-'  1  0  ~/dotfiles/vim/dein/.gitignore
+|4,39,1,0,1535962525,"~/dotfiles/vim/dein/.gitignore"
+-'  1  0  ~/dotfiles/vim/dein/.gitignore
+|4,39,1,0,1535962525,"~/dotfiles/vim/dein/.gitignore"
+-'  1  0  ~/dotfiles/vim/dein/.gitignore
+|4,39,1,0,1535962525,"~/dotfiles/vim/dein/.gitignore"
+-'  1  0  ~/dotfiles/vim/dein/.gitignore
+|4,39,1,0,1535962525,"~/dotfiles/vim/dein/.gitignore"
+-'  1  0  ~/dotfiles/vim/dein/.gitignore
+|4,39,1,0,1535962525,"~/dotfiles/vim/dein/.gitignore"
+-'  1  0  ~/dotfiles/vim/dein/.gitignore
+|4,39,1,0,1535962525,"~/dotfiles/vim/dein/.gitignore"
+-'  1  0  ~/dotfiles/vim/dein/.gitignore
+|4,39,1,0,1535962525,"~/dotfiles/vim/dein/.gitignore"
+-'  2  10  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,2,10,1535962488,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  2  10  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,2,10,1535962488,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  2  10  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,2,10,1535962488,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  2  10  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,2,10,1535962488,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  2  10  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,2,10,1535962488,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  2  10  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,2,10,1535962488,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  2  10  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,2,10,1535962488,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  2  10  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,2,10,1535962488,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  2  10  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,2,10,1535962488,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  2  10  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,2,10,1535962488,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  2  10  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,2,10,1535962488,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  2  10  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,2,10,1535962488,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  1  0  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,1,0,1535962480,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  1  0  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,1,0,1535962480,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  1  0  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,1,0,1535962480,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  1  0  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,1,0,1535962480,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  1  0  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,1,0,1535962480,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  1  0  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,1,0,1535962480,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  1  0  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,1,0,1535962480,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  1  0  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,1,0,1535962480,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  1  0  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,1,0,1535962480,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  1  0  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,1,0,1535962480,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  1  0  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,1,0,1535962480,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  1  0  ~/dotfiles/vim/swpfiles/.gitignore
+|4,39,1,0,1535962480,"~/dotfiles/vim/swpfiles/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  2  10  ~/dotfiles/vim/backups/.gitignore
+|4,39,2,10,1535962403,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  0  ~/dotfiles/vim/backups/.gitignore
+|4,39,1,0,1535962396,"~/dotfiles/vim/backups/.gitignore"
+-'  1  12  ~/test/te
+|4,39,1,12,1535962369,"~/test/te"
+-'  1  12  ~/test/te
+|4,39,1,12,1535962369,"~/test/te"
+-'  1  12  ~/test/te
+|4,39,1,12,1535962369,"~/test/te"
+-'  1  12  ~/test/te
+|4,39,1,12,1535962369,"~/test/te"
+-'  1  12  ~/test/te
+|4,39,1,12,1535962369,"~/test/te"
+-'  1  12  ~/test/te
+|4,39,1,12,1535962369,"~/test/te"
+-'  1  12  ~/test/te
+|4,39,1,12,1535962369,"~/test/te"
+-'  1  12  ~/test/te
+|4,39,1,12,1535962369,"~/test/te"
+-'  1  12  ~/test/te
+|4,39,1,12,1535962369,"~/test/te"
+-'  1  12  ~/test/te
+|4,39,1,12,1535962369,"~/test/te"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
 
-> ~/dotfiles/status
-	*	1508753850	0
-	"	1	0
-
-> ~/dotfiles/.gitignore
-	*	1508753843	0
-	"	10	10
-	^	10	11
-	.	10	11
-	+	5	9
-	+	1	3
-	+	3	3
-	+	5	0
-	+	3	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	3	0
-	+	5	0
-	+	2	13
-	+	4	22
-	+	6	21
-	+	2	12
-	+	7	8
-	+	59	46
-	+	7	7
-	+	15	0
-	+	14	0
-	+	12	0
-	+	7	5
-	+	8	18
-	+	10	11
-
-> ~/index.php
-	*	1508751084	0
-	"	8	14
-	^	8	15
-	.	8	14
-	+	10	1
-	+	7	10
-	+	6	27
-	+	12	0
-	+	12	16
-	+	10	19
-	+	7	0
-	+	8	20
-	+	10	24
-	+	6	19
-	+	8	11
-	+	5	0
-	+	4	19
-	+	8	14
-
-> ~/Documents/free/vue-tutorial/index.html
-	*	1508730731	0
-	"	11	0
-
-> ~/.zshrc
-	*	1508728800	0
-	"	97	43
-	^	97	44
-	.	98	0
-	+	98	0
-
-> ~/Super.php
-	*	1508459348	0
-	"	12	0
-	^	12	1
-	.	10	21
-	+	3	27
-	+	12	0
-	+	9	41
-	+	11	0
-	+	9	41
-	+	8	0
-	+	7	15
-	+	10	21
-
-> ~/Human.php
-	*	1508459112	0
-	"	10	26
-	^	10	27
-	.	10	26
-	+	10	0
-	+	6	0
-	+	5	0
-	+	7	38
-	+	9	0
-	+	8	32
-	+	10	26
-
-> ~/NERD_tree_1
-	*	1508459091	0
-	"	49	0
-	.	1	0
-	+	1	0
-
-> ~/.viminfo
-	*	1508387766	0
-	"	1	0
-
 > ~/dotfiles/NERD_tree_1
-	*	1508387554	0
-	"	1	0
+	*	1535963012	0
+	"	19	0
 	.	1	0
 	+	1	0
 
-> ~/dotfiles/vim/plugins/dein.toml
-	*	1508387544	0
-	"	43	34
-	^	49	2
-	.	43	34
-	+	38	0
-	+	1	11
-	+	31	6
-	+	12	28
-	+	30	0
-	+	1	23
-	+	11	10
-	+	1	11
-	+	2	6
-	+	9	6
-	+	12	6
-	+	37	0
-	+	33	11
-	+	34	24
-	+	35	3
-	+	2	24
-	+	9	30
-	+	13	0
-	+	32	0
-	+	36	0
-	+	35	10
-	+	52	11
-	+	53	22
-	+	53	27
-	+	14	11
-	+	15	25
-	+	53	26
-	+	28	2
-	+	28	55
-	+	18	2
-	+	19	1
-	+	20	2
-	+	21	2
-	+	22	2
-	+	23	3
-	+	24	2
-	+	25	2
-	+	28	1
-	+	16	7
-	+	28	0
-	+	28	1
-	+	28	0
-	+	28	10
-	+	28	1
-	+	28	3
-	+	28	0
-	+	26	84
-	+	28	122
-	+	28	0
-	+	4	11
-	+	5	27
-	+	6	12
-	+	56	29
-	+	56	2
-	+	56	17
-	+	56	0
-	+	56	1
-	+	56	11
-	+	56	34
-	+	56	6
-	+	63	8
-	+	57	14
-	+	60	2
-	+	60	0
-	+	59	2
-	+	63	42
-	+	67	2
-	+	66	33
-	+	65	1
-	+	66	1
-	+	68	0
-	+	69	0
-	+	51	0
-	+	50	2
-	+	49	100
-	+	41	1
-	+	40	2
-	+	43	1
-	+	45	1
-	+	46	1
-	+	48	1
-	+	49	1
-	+	43	34
+> ~/dotfiles/vimrc
+	*	1535963011	0
+	"	55	12
+	^	54	13
+	.	49	14
+	+	51	57
+	+	50	16
+	+	49	14
 
-> ~/dotfiles/[unite] - default
-	*	1508387527	0
-	"	4	0
-	.	2	0
-	+	2	0
-
-> ~/dotfiles/vim/vimrc
-	*	1508387443	0
-	"	68	43
-	.	59	0
-	+	85	41
-	+	59	46
-	+	57	48
-	+	56	49
-	+	55	18
-	+	56	20
-	+	57	19
-	+	59	17
-	+	81	0
-	+	82	0
-	+	83	0
-	+	55	26
-	+	56	30
-	+	57	28
-	+	59	26
-	+	38	17
-	+	55	0
-	+	38	17
-	+	41	76
-	+	42	43
-	+	44	58
-	+	45	68
-	+	47	60
-	+	53	4
-	+	55	0
-	+	56	28
-	+	57	27
-	+	59	30
-	+	67	0
-	+	66	22
-	+	63	51
-	+	63	48
-	+	64	0
-	+	63	51
-	+	62	2
-	+	64	0
-	+	66	54
-	+	65	40
-	+	70	0
-	+	68	46
-	+	69	65
-	+	66	58
-	+	59	0
-	+	59	34
-	+	59	0
-
-> ~/dotfiles/vim/[unite] - default
-	*	1508386408	0
-	"	4	0
-	^	1	5
-	.	2	0
-	+	2	0
-	+	1	0
-	+	2	0
-
-> ~/dotfiles/vim/index.php
-	*	1508385942	0
-	"	3	0
-	^	3	13
-	.	3	0
-	+	3	0
-
-> ~/dotfiles/vim/NERD_tree_1
-	*	1508385705	0
-	"	5	0
-	.	1	0
-	+	1	0
-
-> ~/dotfiles/vim/plugins/dein_lazy.toml
-	*	1508385494	0
-	"	3	25
-	^	3	26
-	.	4	0
-	+	3	66
-	+	4	0
-
-> ~/dotfiles/vim/index.html
-	*	1508383477	0
-	"	3	20
-	^	3	21
-	.	3	20
-	+	1	6
-	+	1	15
-	+	5	6
-	+	4	0
-	+	3	20
-
-> ~/dotfiles/vim/ControlP
-	*	1508383342	0
-	"	10	0
-	.	2	0
-	+	1	0
-	+	2	0
-
-> ~/dotfiles/vim/dein.toml
-	*	1508381538	0
-	"	2	26
-	^	2	27
-	.	2	26
-	+	1	11
-	+	2	26
-
-> ~/dotfiles/vim/dein_lazy.toml
-	*	1508381004	0
-	"	3	25
-	^	3	26
-	.	3	25
-	+	3	25
-
-> ~/dotfiles/init.sh
-	*	1508379808	0
-	"	3	0
-	^	3	1
-	.	3	0
-	+	3	34
-	+	1	9
-	+	2	0
-	+	4	0
-	+	9	27
-	+	3	0
-
-> ~/dotfiles/zsh/zsh_init.sh
-	*	1508379407	0
+> ~/index
+	*	1535962586	0
 	"	1	0
 	^	1	0
 	.	1	0
 	+	1	0
 
-> ~/.vim/vimrc
-	*	1508337159	0
-	"	12	0
+> ~/dotfiles/vim/dein/.gitignore
+	*	1535962532	0
+	"	2	10
+	^	2	11
+	.	2	10
+	+	2	10
+
+> ~/dotfiles/vim/swpfiles/.gitignore
+	*	1535962488	0
+	"	2	10
+	^	2	11
+	.	2	10
+	+	2	10
+
+> ~/dotfiles/vim/backups/.gitignore
+	*	1535962403	0
+	"	2	10
+	^	2	11
+	.	2	10
+	+	2	10
+
+> ~/test/te
+	*	1535962368	0
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	12
+
+> undodir=~/dotfiles/vim/unfiles
+	*	1530517908	0
+	"	1	0
