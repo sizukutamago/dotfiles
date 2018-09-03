@@ -1,14 +1,5 @@
-/vim/backups/*
-!/vim/backups/.gitkeep
-/vim/swpfiles/*
-!/vim/swpfiles/.gitkeep
-/vim/unfiles/*
-!/vim/unfiles/.gitkeep
 /vim/infofile
-vim/dein/
 installer.sh
-
-/vim/dein/.cache/*
 
 # Created by https://www.gitignore.io/api/vim,macos
 
