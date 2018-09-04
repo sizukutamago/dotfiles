@@ -33,6 +33,23 @@ set tabstop=2
 " 行頭でのTab文字の表示幅
 set shiftwidth=2
 
+augroup vimrc-filetype
+    autocmd!
+    " PHPだったらインデント幅が４で
+    autocmd BufNewFile,BufRead *.php set filetype=php
+    autocmd FileType php setlocal expandtab tabstop=4 softtabstop=4 shiftwidth=4
+ augroup END
+
+function! s:PHPLint()
+  let s:result = system('php -l ' . bufname(""))
+  let s:count = split(s:result, "\n")
+  echo s:result
+endfunction
+
+augroup php-lint
+  autocmd!
+  autocmd BufWritePost *.php call <SID>PHPLint()
+augroup END
 
 "dein Scripts-----------------------------
 if &compatible
@@ -71,9 +88,9 @@ filetype plugin indent on
 syntax enable
 
 " If you want to install not installed plugins on startup.
-"if dein#check_install()
-"  call dein#install()
-"endif
+if dein#check_install()
+  call dein#install()
+endif
 
 "End dein Scripts-------------------------
 
