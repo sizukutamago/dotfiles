@@ -1,0 +1,14 @@
+# 基本全て無視して必要なものだけ追加する
+### all ignore ###
+/*
+/.**
+
+### not ignore ###
+!/.zshrc
+
+
+!/readme.md
+!.gitignore
+!.gitkeep
+
+
