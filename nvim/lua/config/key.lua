@@ -6,8 +6,8 @@ vim.bo.softtabstop = 2
 
 
 
-vim.keymap.set('n', '<C-p>', '<cmd>NvimTreeOpen<CR>')
+vim.keymap.set('n', '<C-t>', '<cmd>NvimTreeOpen<CR>')
 
-vim.keymap.set('n', '<C-t>', '<cmd>ToggleTerm<CR>')
+vim.keymap.set('n', '<C-m>', '<cmd>ToggleTerm<CR>')
 
 
