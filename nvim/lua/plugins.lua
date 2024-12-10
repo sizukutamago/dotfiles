@@ -22,4 +22,10 @@ require('lazy').setup({
     version = "*",  -- Use the latest version
     config = true  -- Enable default configuration
   },
+  -- lsp
+  {
+    'williamboman/mason.nvim',
+    'williamboman/mason-lspconfig.nvim',
+    'neovim/nvim-lspconfig',
+  }
 })
