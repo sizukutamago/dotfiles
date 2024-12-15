@@ -6,6 +6,7 @@
 ### not ignore ###
 !/.zshrc
 !/nvim/
+!install.sh
 
 
 !/readme.md
