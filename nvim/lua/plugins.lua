@@ -1,7 +1,7 @@
 require('lazy').setup({
   "folke/tokyonight.nvim",
   "nvim-tree/nvim-web-devicons",
-
+  "github/copilot.vim",
   {
     "nvim-tree/nvim-tree.lua",
     dependencies = {"nvim-tree/nvim-web-devicons"}
