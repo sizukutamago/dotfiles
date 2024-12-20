@@ -15,6 +15,13 @@ fi
 mkdir -p $HOME/.config/
 
 #
+# zsh 補完
+#
+brew install zsh-completions
+chmod -R go-w /opt/homebrew/share
+brew install zsh-autosuggestion
+
+#
 # Starship
 #
 brew install starship
@@ -33,3 +40,4 @@ brew install neovim
 ln -sf nvim $HOME/.config/nvim
 
 source $HOME/.zshrc
+rm -f ~/.zcompdump; compinit
