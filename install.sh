@@ -15,6 +15,13 @@ fi
 mkdir -p $HOME/.config/
 
 #
+# git
+#
+brew install git
+brew install ghq hub
+brew install peco
+
+#
 # zsh 補完
 #
 brew install zsh-completions
