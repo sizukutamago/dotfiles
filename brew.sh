@@ -61,6 +61,9 @@ mise use --global node@24.4.0
 # pnpm
 curl -fsSL https://get.pnpm.io/install.sh | sh -
 
+# Claude Code
+curl -fsSL https://claude.ai/install.sh | bash
+
 
 # Install font tools.
 brew tap bramstein/webfonttools
