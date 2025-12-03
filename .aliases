@@ -153,3 +153,6 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# Claude Code
+alias clauded="claude -dangerously-skip-permissions"
