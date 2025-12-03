@@ -10,6 +10,7 @@ function doIt() {
 		--exclude "bootstrap.sh" \
 		--exclude "brew.sh" \
 		--exclude "README.md" \
+		--exclude ".calude" \
 		-avh --no-perms . ~;
 	source ~/.bash_profile;
 }
