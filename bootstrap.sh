@@ -10,8 +10,17 @@ function doIt() {
 		--exclude "bootstrap.sh" \
 		--exclude "brew.sh" \
 		--exclude "README.md" \
-		--exclude ".calude" \
+		--exclude ".claude" \
+		--exclude ".gitconfig.local.example" \
 		-avh --no-perms . ~;
+
+	# .gitconfig.local が存在しない場合、テンプレートからコピー
+	if [ ! -f ~/.gitconfig.local ]; then
+		echo "~/.gitconfig.local が見つかりません。テンプレートを作成します。"
+		cp .gitconfig.local.example ~/.gitconfig.local
+		echo "~/.gitconfig.local を編集して、name と email を設定してください。"
+	fi
+
 	source ~/.bash_profile;
 }
 

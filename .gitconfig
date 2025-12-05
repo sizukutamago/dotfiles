@@ -181,3 +181,8 @@
 [init]
 
 	defaultBranch = main
+
+# ローカル設定の読み込み（マシン固有の設定用）
+# ~/.gitconfig.local に [user] name, email 等を記述
+[include]
+	path = ~/.gitconfig.local
