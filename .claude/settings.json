@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "statusLine": {
+    "type": "command",
+    "command": "bash -c '~/.claude/statusline.sh'"
+  },
+  "enabledPlugins": {
+    "python-development@claude-code-workflows": true,
+    "code-refactoring@claude-code-workflows": true,
+    "llm-application-dev@claude-code-workflows": true,
+    "context-management@claude-code-workflows": true,
+    "code-documentation@claude-code-workflows": true
+  },
+  "alwaysThinkingEnabled": false,
+  "feedbackSurveyState": {
+    "lastShownTime": 1754035976191
+  }
+}
