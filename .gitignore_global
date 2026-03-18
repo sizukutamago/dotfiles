@@ -1,0 +1,48 @@
+# OS生成ファイル
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# エディタ・IDE
+*.swp
+*.swo
+*~
+.*.sw?
+.vim/.netrw*
+.nvimlog
+
+# バックアップファイル
+*.bak
+*.backup
+*.old
+*.orig
+
+# ログファイル
+*.log
+logs/
+
+# 一時ファイル
+*.tmp
+*.temp
+tmp/
+temp/
+
+# 秘密情報
+.env
+.env.local
+.env.*.local
+*_credentials
+*_secrets
+*.key
+*.pem
+
+# Claude Code生成ファイル
+claudedocs/
+
+# Git関連（サブモジュールがある場合は適宜調整）
+# .git/ は自動的に無視されますが、明示的に記載する場合もあります

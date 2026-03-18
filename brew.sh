@@ -39,7 +39,7 @@ brew install wget
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
-	
+
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
 brew install neovim
@@ -58,12 +58,17 @@ brew install mise
 mise install node@24.4.0
 mise use --global node@24.4.0
 
+# bun
+curl -fsSL https://bun.sh/install | bash
+
 # pnpm
 curl -fsSL https://get.pnpm.io/install.sh | sh -
 
 # Claude Code
 curl -fsSL https://claude.ai/install.sh | bash
 
+# uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Install font tools.
 brew tap bramstein/webfonttools

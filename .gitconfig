@@ -57,7 +57,7 @@
 	fm = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --grep=$1; }; f"
 
 	# Remove branches that have already been merged with main.
-	# a.k.a. ‘delete merged’
+	# a.k.a. 'delete merged'
 	dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 
 	# List contributors with number of commits.
@@ -183,6 +183,6 @@
 	defaultBranch = main
 
 # ローカル設定の読み込み（マシン固有の設定用）
-# ~/.gitconfig.local に [user] name, email 等を記述
+# ~/.gitconfig.local に [user] name, email, [ghq] root 等を記述
 [include]
 	path = ~/.gitconfig.local

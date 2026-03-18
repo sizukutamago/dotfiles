@@ -1,6 +1,7 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.bun/bin:$PATH"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -86,3 +87,10 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # mise path
 eval "$(mise activate zsh)"
+
+# bun completions
+[ -s "/Users/sizukutamago/.bun/_bun" ] && source "/Users/sizukutamago/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
