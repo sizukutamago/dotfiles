@@ -1,17 +1,43 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "cleanupPeriodDays": 90,
+  "env": {
+    "BASH_DEFAULT_TIMEOUT_MS": "3600000",
+    "BASH_MAX_TIMEOUT_MS": "3600000",
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "includeCoAuthoredBy": false,
+  "permissions": {
+    "allow": [
+      "Bash(ask *)",
+      "Bash(ping *)",
+      "Bash(pend *)",
+      "mcp__pencil"
+    ]
+  },
+  "model": "opus[1m]",
   "statusLine": {
     "type": "command",
-    "command": "bash -c '~/.claude/statusline.sh'"
+    "command": "npx -y @owloops/claude-powerline@latest --style=powerline"
   },
   "enabledPlugins": {
-    "python-development@claude-code-workflows": true,
-    "code-refactoring@claude-code-workflows": true,
-    "llm-application-dev@claude-code-workflows": true,
-    "context-management@claude-code-workflows": true,
-    "code-documentation@claude-code-workflows": true
+    "typescript-lsp@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true,
+    "dev-tools-plugin@dev-tools-plugin": true,
+    "blueprint-plugin@blueprint-plugin": true
   },
-  "alwaysThinkingEnabled": false,
+  "extraKnownMarketplaces": {
+    "blueprint-plugin": {
+      "source": {
+        "source": "github",
+        "repo": "sizukutamago/blueprint-plugin"
+      }
+    }
+  },
+  "alwaysThinkingEnabled": true,
+  "effortLevel": "high",
+  "plansDirectory": "./plans/",
+  "skipDangerousModePermissionPrompt": true,
   "feedbackSurveyState": {
     "lastShownTime": 1754035976191
   }
