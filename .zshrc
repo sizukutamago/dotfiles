@@ -89,7 +89,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(mise activate zsh)"
 
 # bun completions
-[ -s "/Users/sizukutamago/.bun/_bun" ] && source "/Users/sizukutamago/.bun/_bun"
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"

@@ -43,6 +43,7 @@ temp/
 
 # Claude Code生成ファイル
 claudedocs/
+.claude/settings.local.json
 
 # Git関連（サブモジュールがある場合は適宜調整）
 # .git/ は自動的に無視されますが、明示的に記載する場合もあります
