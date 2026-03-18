@@ -12,11 +12,28 @@ BACKUP_DIR="$HOME/.dotfiles_backup/$(date +%Y%m%d_%H%M%S)"
 declare -a DOTFILES=(
     ".zshrc"
     ".zsh_prompt"
+    ".zprofile"
     ".aliases"
+    ".bash_profile"
+    ".bash_prompt"
+    ".bashrc"
     ".gitconfig"
     ".vimrc"
+    ".gvimrc"
     ".editorconfig"
     ".tmux.conf"
+    ".inputrc"
+    ".screenrc"
+    ".curlrc"
+    ".wgetrc"
+    ".exports"
+    ".functions"
+    ".hgignore"
+)
+
+# 管理するディレクトリ一覧
+declare -a DOTDIRS=(
+    ".config/nvim"
 )
 
 # 色付きメッセージ
@@ -38,7 +55,7 @@ create_symlink() {
     local source="$1"
     local target="$2"
 
-    # 既存ファイルの処理
+    # 既存ファイル/ディレクトリの処理
     if [ -e "$target" ] || [ -L "$target" ]; then
         if [ -L "$target" ]; then
             # 既にシンボリックリンクの場合
@@ -52,6 +69,12 @@ create_symlink() {
         create_backup_dir
         mv "$target" "$BACKUP_DIR/"
         warn "既存ファイルをバックアップしました: $target -> $BACKUP_DIR/"
+    fi
+
+    # 親ディレクトリがなければ作成
+    local parent_dir=$(dirname "$target")
+    if [ ! -d "$parent_dir" ]; then
+        mkdir -p "$parent_dir"
     fi
 
     # シンボリックリンク作成
@@ -111,6 +134,18 @@ main() {
         local target="$HOME/$file"
 
         if [ -f "$source" ]; then
+            create_symlink "$source" "$target"
+        else
+            warn "$source が見つかりません。スキップします。"
+        fi
+    done
+
+    # 各ディレクトリのシンボリックリンクを作成
+    for dir in "${DOTDIRS[@]}"; do
+        local source="$DOTFILES_DIR/$dir"
+        local target="$HOME/$dir"
+
+        if [ -d "$source" ]; then
             create_symlink "$source" "$target"
         else
             warn "$source が見つかりません。スキップします。"
